@@ -3,7 +3,7 @@ layout: default
 ---
 <script src={{ "/js/jquery.min.js" | prepend: site.baseurl }}></script>
   <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "percentPosition": true, "columnWidth": 250, "gutter": 20 }'>
-       {% for post in paginator.posts %}
+       {% for post in site.posts %}
         <div class="grid-item color{{forloop.index}}">
             <style>.color{{forloop.index}}{background-color:{% if post.color %}#{{post.color}}{% else %} #3949AB {% endif %} }</style>
          {% if post.img %}
