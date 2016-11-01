@@ -22,3 +22,9 @@ width: small
 {% endhighlight %}
 
 The page width will be 600px.
+
+*This option is only available on full version.
+
+<style>
+.page-container {max-width: 600px}
+</style>

@@ -22,3 +22,5 @@ width: medium
 {% endhighlight %}
 
 The page width will be 800px.
+
+*This option is only available on full version.

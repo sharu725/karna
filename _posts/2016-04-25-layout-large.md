@@ -22,3 +22,9 @@ width: large
 {% endhighlight %}
 
 The page width will be 1000px.
+
+*This option is only available on full version.
+
+<style>
+.page-container {max-width: 1000px}
+</style>
