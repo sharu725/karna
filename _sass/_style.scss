@@ -18,7 +18,8 @@
     box-align:center;
 
 }
-     .grid-item { 
+
+.grid-item { 
          width: 250px;
          min-height: 100px;
          box-shadow: 2px 2px 4px #aaa;
@@ -158,6 +159,8 @@ header {
     
 }
 
+// Disqus comments button
+
 .show-comments {
     background: transparent;
     border: 1px dashed $brand-color;
@@ -176,7 +179,8 @@ header {
     text-align: center;
 }
 
-//table
+
+// Table
 table {
   margin: 15px 0;
   border-collapse: collapse;
@@ -225,6 +229,8 @@ table {
     display: inline-block;
 }
 
+// Add class="video" to any video you insert to make it responsive
+
 .video {
     width: 100%;
     height: 360px;
@@ -238,15 +244,12 @@ table {
     
 }
 
-
+// Featured image in posts
 .featured-img {
     width: 100%;
 }
 
-.pagination {
-
-}
-
+// Active page number in pagination
 .active {
     font-weight: 700;
 }
