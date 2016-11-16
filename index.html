@@ -1,8 +1,7 @@
 ---
 layout: default
 ---
-<script src={{ "/js/jquery.min.js" | prepend: site.baseurl }}></script>
- <script src={{ "/js/masonry.pkgd.min.js" | prepend: site.baseurl }}></script>
+
   <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "percentPosition": true, "columnWidth": 250, "gutter": 20 }'>
        {% for post in site.posts %}
         <div class="grid-item color{{forloop.index}}">
@@ -22,5 +21,6 @@ layout: default
        
 </div>
 
-
+<script src={{ "/js/jquery.min.js" | prepend: site.baseurl }}></script>
+ <script src={{ "/js/masonry.pkgd.min.js" | prepend: site.baseurl }}></script>
 
