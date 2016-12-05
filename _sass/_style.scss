@@ -1,41 +1,63 @@
-.grid{
+#container {
+    width: 95%;
+    margin: 4em auto;
+    height: auto;
+}
+.cols {
+    -moz-column-count: 4;
+    -moz-column-gap: 2%;
+    -moz-column-width: 25%;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 2%;
+    -webkit-column-width: 25%;
+    column-count: 4;
+    column-gap: 2%;
+    column-width: 25%;
+    
+    @include media-query($on-laptop){
+    -moz-column-count: 3;
+    -moz-column-gap: 3%;
+    -moz-column-width: 30%;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 3%;
+    -webkit-column-width: 30%;
+    column-count: 3;
+    column-gap: 3%;
+    column-width: 30%;        
+    }
+    @include media-query($on-palm) {
+    -moz-column-count: 1;
+    -moz-column-gap: 0%;
+    -moz-column-width: 100%;
+    -webkit-column-count: 1;
+    -webkit-column-gap: 0%;
+    -webkit-column-width: 100%;
+    column-count: 1;
+    column-gap: 0%;
+    column-width: 100%;
+    }
+
+}
+.box {
+    margin-bottom: 20px;
+    display: inline-block;
     width: 100%;
-    margin-top: 20px;
-    margin-bottom: 100px;
-        /* Firefox */
-    display:-moz-box;
-    -moz-box-pack:center;
-    -moz-box-align:center;
-
-    /* Safari and Chrome */
-    display:-webkit-box;
-    -webkit-box-pack:center;
-    -webkit-box-align:center;
-
-    /* W3C */
-    display:box;
-    box-pack:center;
-    box-align:center;
-
-}
-
-.grid-item { 
-         width: 250px;
-         min-height: 100px;
-         box-shadow: 2px 2px 4px #aaa;
-         border-radius: 4px;
-         margin-bottom: 20px;
-         color: rgba(255, 255, 255, 0.72);
-         &:hover{
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px #aaa;
+    color: rgba(255, 255, 255, 0.72);
+    &:hover{
           box-shadow: 3px 3px 6px #aaa;   
-         }
-         @include media-query($on-palm) {
-          width: 100%;       
-        }
-
-
+    }
 }
-     .container {
+ 
+.feat-image {
+   border-radius: 4px 4px 0 0; 
+   width: 100%;
+
+}    
+
+
+.container {
          padding: 15px;     
 
      }
@@ -80,11 +102,6 @@
         &:hover {
         opacity: 1;
     }
-}
-
-.grid-item:hover .social{
-    display: block;
-    opacity: 0.9;
 }
 
 
