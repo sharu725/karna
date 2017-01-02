@@ -1,4 +1,14 @@
-Demo: [http://webjeda.com/karna](http://webjeda.com/karna)
+---
+layout: post
+title: Documentation
+description: Learn how to install and use this theme. This document will be updated on a regular basis upon adding new features or bug fixes5 
+img: image-10.jpg
+color: 212121
+author: webjeda
+---
+
+* some text
+{: toc}
 
 # Installation: 
 Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
@@ -24,21 +34,27 @@ This process will host the theme as a **Project Page**. You can also download th
 
 The default theme will look like this
 
-![webjeda karna jekyll theme](/images/karna-jekyll-theme-screenshot.png)
+![webjeda karna jekyll theme]({{site.baseurl}}/images/karna-jekyll-theme-screenshot.png){: style="box-shadow: 0 0 5px #777"}
 
 
 
 A sample post would look like this
 
-![webjeda karna jekyll theme sidebar](/images/post.png)
+![webjeda karna jekyll theme sidebar]({{site.baseurl}}/images/post.png){: style="box-shadow: 0 0 5px #777"}
 
 
 This theme is made especially for smartphones.
 
-![webjeda karna responsive jekyll theme](/images/karna-responsive-jekyll-theme.png)
+![webjeda karna responsive jekyll theme]({{site.baseurl}}/images/karna-responsive-jekyll-theme.png){: style="box-shadow: 0 0 5px #777"}
+{: style="text-align:center"}
 
 # Development
 Make changes to the **master** branch and create a pull request. Do not use **gh-pages** branch as it is used to host the theme.
 
 # License
 MIT License
+
+# Change Log
+
+### Version 0.8
+* Initial release with a responsive card-friendly layout.
