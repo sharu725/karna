@@ -1,0 +1,43 @@
+
+title: Karna
+desctiption: Karna is a responsive jekyll theme which includes pinterest like pins.
+url: http://webjeda.com/
+permalink: ':title/'
+
+markdown: kramdown
+baseurl: "/karna"
+
+
+sass:
+    style: compressed
+
+  
+#optimization
+#compress.html
+compress_html:
+  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+
+highlight: rouge
+
+
+# Tracker
+analytics: UA-83979019-1
+
+# Comments
+disqus-shortname: webjeda-demo
+
+# Contact form
+# Go to https://getsimpleform.com and get a API token by signing up with your email and enter that here
+api-token:   
+
+include: [_pages]
+version: 0.8
+
+gems: [jekyll-paginate, jekyll-seo-tag]
