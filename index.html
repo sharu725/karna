@@ -1,8 +1,9 @@
 ---
 layout: default
 ---
+<div id="container">
+<div id="grid" data-columns class="cols">
 
-<div id="container" class="cols">
     {% for post in site.posts %}
     <div class="box" style="background-color:#{{post.color}}">
        {% if post.img %}
@@ -15,4 +16,8 @@ layout: default
         </div>   
     </div>
    {% endfor %}
+
 </div>
+</div>
+
+<script src="{{site.baseurl}}/js/salvattore.min.js"></script>
