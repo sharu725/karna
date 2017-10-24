@@ -1,3 +1,5 @@
+This is the free version of [Karna Jekyll Theme](http://webjeda.com/karna-full/)
+
 Demo: [http://webjeda.com/karna](http://webjeda.com/karna)
 
 ## Installation
