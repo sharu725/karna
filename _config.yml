@@ -6,7 +6,7 @@ permalink: ':title/'
 
 markdown: kramdown
 baseurl: "/karna"
-
+full-version: "http://webjeda.com/karna-full/"
 
 sass:
     style: compressed
@@ -40,4 +40,6 @@ api-token:
 include: [_pages]
 version: 0.8
 
-gems: [jekyll-paginate, jekyll-seo-tag]
+plugins: 
+    - jekyll-paginate
+    - jekyll-seo-tag

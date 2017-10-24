@@ -46,7 +46,7 @@ Does the theme deserve a star?
 </form>
 
 
-[**Demo**](http://karna.s3-website-us-west-2.amazonaws.com/){: target="_blank"}
+[**Demo**]({{site.full-version}}){: target="_blank"}
 
 The premium theme includes the following:
 
